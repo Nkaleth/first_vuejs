@@ -2,20 +2,14 @@
   <First_component />
 </template>
 
-<script>
-
+<script lang="ts">
   import First_component from "./components/first_component.vue" ;
   
   export default {
 
     components: {
       First_component,
-    }
-
-  }
+    },
+  };
 
 </script>
-
-<style>
-
-</style>
